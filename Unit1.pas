@@ -12,8 +12,6 @@ type
     Button1: TButton;
     Button2: TButton;
     Image2: TImage;
-    Image3: TImage;
-    Button3: TButton;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }

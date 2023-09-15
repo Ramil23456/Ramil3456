@@ -12,6 +12,8 @@ type
     Button1: TButton;
     Button2: TButton;
     Image2: TImage;
+    Image3: TImage;
+    Button3: TButton;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -33,6 +35,10 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 begin
 Image2.Show;
+end;
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+Image3.Show;
 end;
 
 end.
