@@ -10,8 +10,6 @@ type
   TForm1 = class(TForm)
     Image1: TImage;
     Button1: TButton;
-    Button2: TButton;
-    Image2: TImage;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
